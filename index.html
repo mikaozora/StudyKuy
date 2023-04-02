@@ -5,28 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/nav-bar.css">
+    <link rel="stylesheet" href="Style/assets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>StudyKuy</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="Assets/logo.png">
+                <img src="Assets/logo.svg">
             </div>
             <div class="nav-categories">
-                
+                <h3>Categories</h3>
             </div>
             <div class="nav-search">
-
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="nav-search" id="nav-search" placeholder="Search for anything" class="search-bar">
             </div>
             <div class="nav-my-class">
-
+                <h3>My Class</h3>
+            </div>
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
             <div class="nav-non-log">
 
             </div>
             <div class="nav-logged">
-
+                <img src="Assets/images/john.png" id="profile-picture">
+                <h3 id="username">John Doe</h3>
             </div>
         </div>
     </nav>

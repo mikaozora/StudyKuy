@@ -1,34 +1,90 @@
-@font-face {
-    font-family: montserrat;
-    src: url(../Assets/fonts/Montserrat-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-@font-face {
-    font-family: montserrat;
-    src: url(../Assets/fonts/Montserrat-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
+.nav-bar {
+    height: 100px;
+    width: 100vw;
+    background-color: var(--white);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@font-face {
-    font-family: montserrat;
-    src: url(../Assets/fonts/Montserrat-Black.ttf);
-    font-weight: bolder;
-    font-style: normal;
+.nav-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@font-face {
-    font-family: montserrat;
-    src: url(../Assets/fonts/Montserrat-Light.ttf);
-    font-weight: lighter;
-    font-style: normal;
+.nav-logo img {
+    height: 30px;
 }
 
-@font-face {
-    font-family: montserrat;
-    src: url(../Assets/fonts/Montserrat-SemiBold.ttf);
-    font-weight: 400;
-    font-style: normal;
+.nav-categories h3 {
+    font-family: montserrat-reg;
+    font-size: 1.2rem;
+    color: var(--near-black);
+}
+
+.nav-search {
+    position: relative;
+}
+
+.search-bar {
+    width: 450px;
+    border-radius: 7px;
+    border: 1.5px solid var(--medium-grey);
+    padding: 15px 70px;
+    color: var(--near-black);
+    font-family: montserrat-reg;
+    font-size: 1.1rem;
+}
+
+.fa-magnifying-glass {
+    font-size: 1.2rem;
+    color: var(--medium-grey);
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.nav-my-class h3 {
+    font-family: montserrat-reg;
+    font-size: 1.2rem;
+    color: var(--near-black);
+}
+
+.fa-cart-shopping {
+    font-size: 1.6rem;
+    color: var(--near-black);
+}
+
+.nav-non-log {
+    display: none;
+}
+
+.nav-logged {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+#profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#username {
+    font-family: montserrat-reg;
+    font-size: 1.2rem;
+    color: var(--near-black);
 }
