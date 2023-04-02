@@ -6,12 +6,13 @@
 .nav-bar {
     height: 100px;
     width: 100vw;
-    background-color: var(--white);
+    background-color: rgba(256, 256, 256, 0.95);
     position: fixed;
     top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 .nav-container {
