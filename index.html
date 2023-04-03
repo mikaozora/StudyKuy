@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="Script/faq.js" defer=""></script>
     <script src="Script/banner.js" defer=""></script>
+    <script src="Script/nav-bar.js" defer=""></script>
     <title>StudyKuy</title>
 </head>
 <body>
@@ -19,25 +20,27 @@
             <div class="nav-logo">
                 <img src="Assets/logo.svg">
             </div>
-            <div class="nav-categories">
-                <h3>Categories</h3>
+            <div class="nav-categories" id="nav-categories">
+                <h3 id="categories">Categories</h3>
             </div>
             <div class="nav-search">
                 <img src="Assets/icons/search.svg">
                 <input type="text" name="nav-search" id="nav-search" placeholder="Search for anything" class="search-bar">
             </div>
             <div class="nav-my-class">
-                <h3>My Class</h3>
+                <a href="" id="my-class">My Class</a>
             </div>
             <div class="nav-cart">
-                <img src="Assets/icons/buy.svg">
+                <a href="" id="nav-cart"><img src="Assets/icons/buy.svg"></a>
             </div>
             <div class="nav-non-log">
                 <a href="">Login</a>
             </div>
-            <div class="nav-logged">
-                <img src="Assets/images/john.png" id="profile-picture">
-                <h3 id="username">John Doe</h3>
+            <div class="nav-logged" id="nav-logged">
+                <div class="profile" id="profile">
+                    <img src="Assets/images/john.png" id="profile-picture">
+                    <h3 id="username">John Doe</h3>
+                </div>
             </div>
         </div>
     </nav>

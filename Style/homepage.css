@@ -132,7 +132,7 @@
 
 .card-details {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .card-details h2 {
@@ -235,15 +235,27 @@
 }
 
 .promos {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    overflow-x: scroll;
 }
 
 .promo {
+    min-width: 400px;
     width: 400px;
     position: relative;
+    margin: 0px 20px;
+}
+
+.promo:first-child {
+    margin: 0px 20px 0px 0px;
+}
+
+.promo:last-child {
+    margin: 0px 0px 0px 20px;
 }
 
 .promo img {
@@ -396,7 +408,7 @@
 }
 
 .section-details h2 {
-    width: 400px;
+    max-width: 400px;
     font-family: montserrat-bold;
     font-size: 2.4rem;
     color: var(--near-black);
@@ -468,6 +480,7 @@
 }
 
 .faq-container {
+    min-width: 400px;
     width: calc(50% - 100px);
     padding: 30px;
     background-color: var(--lighter-grey);
@@ -488,6 +501,7 @@
     font-family: montserrat-semi;
     font-size: 1.2rem;
     color: var(--near-black);
+    margin-right: 20px;
 }
 
 .faq-explain {
