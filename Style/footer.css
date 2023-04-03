@@ -1,6 +1,109 @@
 .footer {
-    width: 100%;
+    width: calc(100% - 160px);
     background-color: var(--primary);
     height: fit-content;
     padding: 80px;
+}
+
+.footer .logo {
+    width: 200px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 30px 0px;
+}
+
+.footer-section {
+    width: 100%;
+    margin: 0px 40px;
+}
+
+.footer-section:first-child {
+    margin: 0px 40px 0px 0px;
+}
+
+.footer-section:last-child {
+    margin: 0px 0px 0px 40px;
+    width: 150%;
+}
+
+.footer-section h2 {
+    font-family: montserrat-semi;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.footer-section p {
+    font-family: montserrat-reg;
+    font-size: 1rem;
+    color: var(--white);
+    line-height: 1.6rem;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link a {
+    font-family: montserrat-reg;
+    font-size: 1rem;
+    color: var(--white);
+    line-height: 1.6rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-link a:hover {
+    opacity: 0.7;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media a {
+    margin: 0px 10px;
+}
+
+.social-media a:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-brands {
+    font-size: 2.4rem;
+    color: var(--white);
+}
+
+.social-media a:first-child {
+    margin: 0px 10px 0px 0px;
+}
+
+.social-media a:last-child {
+    margin: 0px 0px 0px 10px;
+}
+
+.footer-programming {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-programing img {
+    height: 80px;
+    margin: 0px 10px;
+}
+
+.footer-programing img:first-child {
+    margin: 0px 10px 0px 0px;
+}
+
+.footer-programing img:last-child {
+    margin: 0px 0px 0px 10px;
 }
