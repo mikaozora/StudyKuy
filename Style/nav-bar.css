@@ -47,8 +47,8 @@
     font-size: 1.1rem;
 }
 
-.fa-magnifying-glass {
-    font-size: 1.2rem;
+.nav-search img {
+    height: 25px;
     color: var(--medium-grey);
     position: absolute;
     top: 50%;
@@ -62,8 +62,8 @@
     color: var(--near-black);
 }
 
-.fa-cart-shopping {
-    font-size: 1.6rem;
+.nav-cart img {
+    height: 30px;
     color: var(--near-black);
 }
 
