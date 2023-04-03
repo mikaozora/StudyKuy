@@ -61,9 +61,9 @@
 
 .slider h1 {
     font-family: montserrat-bold;
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: var(--near-black);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .carousel {
@@ -171,7 +171,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .card-btn h2 {
@@ -191,6 +190,202 @@
     height: 40px;
     width: fit-content;
 }
+
+.promo-deals {
+    width: calc(100% - 120px);
+    height: fit-content;
+    padding: 60px;
+    background-color: #E6F1FF;
+}
+
+.promo-deals h1 {
+    font-family: montserrat-bold;
+    font-size: 2.4rem;
+    color: var(--near-black);
+    margin-bottom: 40px;
+}
+
+.promos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.promo {
+    width: 400px;
+    position: relative;
+}
+
+.promo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.promo-banner {
+    position: absolute;
+    top: 0px;
+    background-color: #E52A34;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-banner h3 {
+    font-family: montserrat-bold;
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-left: -5px;
+}
+
+.promo-details {
+    background-color: var(--white);
+    margin-top: -40px;
+    padding: 40px;
+    position: relative;
+    z-index: 5;
+    border-radius: 20px;
+}
+
+.promo-details h2 {
+    font-family: montserrat-bold;
+    font-size: 1.4rem;
+    color: var(--near-black);
+}
+
+.promo-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.promo-rating img {
+    height: 20px;
+    width: 20px;
+}
+
+.promo-details h3 {
+    font-family: montserrat-semi;
+    font-size: 1rem;
+    color: var(--medium-grey);
+    text-decoration: line-through;
+}
+
+.promo-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.promo-price h4 {
+    background-color: rgba(255, 0, 0, 0.25);
+    padding: 5px 10px;
+    color: #FD0000;
+    font-family: montserrat-bold;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.promo-price h3 {
+    color: var(--near-black);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.promo-details h5 {
+    font-family: montserrat-semi;
+    color: var(--medium-grey);
+    font-size: 1rem;
+    margin: 20px 0px 5px 0px;
+}
+
+.promo-details p {
+    font-family: montserrat-reg;
+    color: var(--lighter-black);
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.promo-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.promo-btn h2 {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 15px 30px;
+    text-align: center;
+    font-family: montserrat-semi;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.promo-btn img {
+    border-radius: 0px;
+    height: 40px;
+    width: fit-content;
+}
+
+.section {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F0F6FF   ;
+}
+
+.section img {
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-details {
+    padding: 60px;
+}
+
+.section-details h2 {
+    font-family: montserrat-bold;
+    font-size: 2.4rem;
+    color: var(--near-black);
+}
+
+.section-details p {
+    font-family: montserrat-reg;
+    font-size: 1.2rem;
+    color: var(--near-black);
+}
+
+.section-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-btn a:first-child {
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: montserrat-semi;
+    font-size: 1.2rem;
+}
+
 
 .margin {
     margin: 50px 0px;
