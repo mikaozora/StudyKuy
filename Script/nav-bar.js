@@ -48,10 +48,36 @@ let profileLink = [
     },
 ]
 
+let dataBase = [
+    {
+        name: "Python",
+        link: ""
+    },
+    {
+        name: "Web Development",
+        link: ""
+    },
+    {
+        name: "Application mobile",
+        link: ""
+    },
+    {
+        name: "Data scientist",
+        link: ""
+    },
+    {
+        name: "30 days package",
+        link: ""
+    }
+]
+
 let category = document.getElementById("nav-categories")
 let categoryBtn = document.getElementById("categories") 
 let profile = document.getElementById("nav-logged")
 let profileBtn = document.getElementById("profile")
+let search = document.getElementById("search")
+let searchBar = document.getElementById("nav-search")
+let closeBtn = document.getElementById("close")
 let lastDrop = []
 
 categoryBtn.addEventListener("click", (e)=>{
@@ -119,5 +145,58 @@ profileBtn.addEventListener("click", (e)=>{
     } else {
         lastDrop[lastDrop.length - 1].remove()
         lastDrop.pop()
+    }
+})
+
+function closeSearch() {
+    closeBtn.classList.add("hidden")
+    searchBar.value = ""
+    if (lastDrop.length != 0) {
+        lastDrop[lastDrop.length - 1].remove()
+        lastDrop.pop()
+    }
+}
+
+closeBtn.addEventListener("click", closeSearch)
+
+searchBar.addEventListener("input", (e)=> {
+    let searchVal = searchBar.value
+    if (closeBtn.classList.contains("hidden")) {
+        closeBtn.classList.remove("hidden")
+    }
+
+    if (searchVal == "" || searchVal.length == 0) {
+        closeSearch()
+        return
+    }
+
+    while (lastDrop.length != 0) {
+        lastDrop[lastDrop.length - 1].remove()
+        lastDrop.pop()
+    }
+
+    let drop = document.createElement("div")
+    drop.classList.add("search-result")
+    dataBase.forEach(el => {
+        let temp = el.name
+        if (temp.toLowerCase().includes(searchVal.toLowerCase())) {
+            let link = document.createElement("a")
+            link.href = el.link
+            link.innerHTML = el.name
+
+            drop.appendChild(link)
+        }
+    });
+
+    if (drop.children.length == 0) {
+        let noFound = document.createElement("p")
+        noFound.innerHTML = "No result..."
+        drop.appendChild(noFound)
+
+        search.appendChild(drop)
+        lastDrop.push(drop)
+    } else {
+        search.appendChild(drop)
+        lastDrop.push(drop)
     }
 })
