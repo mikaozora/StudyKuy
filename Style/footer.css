@@ -1,0 +1,6 @@
+.footer {
+    width: 100%;
+    background-color: var(--primary);
+    height: fit-content;
+    padding: 80px;
+}

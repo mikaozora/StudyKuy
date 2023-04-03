@@ -48,6 +48,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background-color: var(--primary);
 }
 
 .banner-arrow {
@@ -59,11 +65,21 @@
     width: 90vw;
 }
 
-.slider h1 {
+.slider-title {
+    margin-bottom: 40px;
+}
+
+.slider-title h1 {
     font-family: montserrat-bold;
     font-size: 2.4rem;
     color: var(--near-black);
-    margin-bottom: 40px;
+}
+
+.slider-title p {
+    font-family: montserrat-reg;
+    font-size: 1.2rem;
+    color: var(--lighter-black);
+    margin-top: 10px;
 }
 
 .carousel {
@@ -149,7 +165,7 @@
 
 .card-back h4 {
     font-size: 1rem;
-    font-family: montserrat-reg;
+    font-family: montserrat-semi;
     color: var(--less-primary);
 }
 
@@ -184,6 +200,12 @@
     border-radius: 5px;
     margin: 0px;
     margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card-btn h2:hover {
+    opacity: 0.7;
 }
 
 .card-btn img {
@@ -333,6 +355,12 @@
     border-radius: 5px;
     margin: 0px;
     margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.promo-btn h2:hover {
+    opacity: 0.7;
 }
 
 .promo-btn img {
@@ -357,10 +385,11 @@
 }
 
 .section-details {
-    padding: 60px;
+    padding: 80px;
 }
 
 .section-details h2 {
+    width: 400px;
     font-family: montserrat-bold;
     font-size: 2.4rem;
     color: var(--near-black);
@@ -370,6 +399,7 @@
     font-family: montserrat-reg;
     font-size: 1.2rem;
     color: var(--near-black);
+    margin: 20px 0px;
 }
 
 .section-btn {
@@ -384,8 +414,110 @@
     text-decoration: none;
     font-family: montserrat-semi;
     font-size: 1.2rem;
+    border-radius: 5px;     
 }
 
+.section-btn a:last-child {
+    color: var(--primary);
+    border: 1.5px solid var(--primary);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: montserrat-semi;
+    font-size: 1.2rem;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.section-btn a {
+    transition: all 0.3s ease-in-out;
+}
+
+.section-btn a:hover {
+    opacity: 0.7;
+}
+
+.faq {
+    width: 90vw;
+}
+
+.faq .faq-title {
+    margin-bottom: 40px;
+}
+
+.faq .faq-title h1 {
+    font-family: montserrat-bold;
+    font-size: 2.4rem;
+    color: var(--near-black);
+    margin-bottom: 40px;
+}
+
+.faq-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: -20px;
+}
+
+.faq-container {
+    width: calc(50% - 100px);
+    padding: 30px;
+    background-color: var(--lighter-grey);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+}
+
+.faq-question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-question h2 {
+    font-family: montserrat-semi;
+    font-size: 1.2rem;
+    color: var(--near-black);
+}
+
+.faq-explain {
+    margin-top: 30px;
+    border-top: 2px solid var(--light-grey);
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-explain p {
+    font-size: 1rem;
+    font-family: montserrat-reg;
+    line-height: 1.4rem;
+    color: var(--lighter-black);
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-arrow {
+    font-size: 1.4rem;
+    color: var(--primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-arrow-focused {
+    transform: rotate(90deg);
+}
+
+.faq-hidden {
+    margin-top: 0px;
+    border: 0px;
+}
+
+.faq-hidden p {
+    font-size: 0rem;
+    margin-top: 0px;
+    line-height: 0rem;
+}
 
 .margin {
     margin: 50px 0px;
