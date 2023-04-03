@@ -167,7 +167,7 @@ profileBtn.addEventListener("click", (e)=>{
 function closeSearch() {
     closeBtn.classList.add("hidden")
     searchBar.value = ""
-    if (lastDrop.length != 0) {
+    while (lastDrop.length != 0) {
         lastDrop[lastDrop.length - 1].remove()
         lastDrop.pop()
     }
