@@ -68,6 +68,22 @@ let dataBase = [
     {
         name: "30 days package",
         link: ""
+    },
+    {
+        name: "UI/UX Design",
+        link: ""
+    },
+    {
+        name: "Cyber Security",
+        link: ""
+    },
+    {
+        name: "AI with Python",
+        link: ""
+    },
+    {
+        name: "HTML & CSS Course",
+        link: ""
     }
 ]
 
