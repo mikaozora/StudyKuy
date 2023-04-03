@@ -33,5 +33,8 @@
     --medium-grey: #808080;
     --lighter-black: #4D4D4D;
     --near-black: #333333;
-    -light-grey: #C7CED1;
+    --light-grey: #C7CED1;
+    --lighter-grey: #F1F1F1;
+    --primary: #157AFE;
+    --less-primary: #246EB9;
 }

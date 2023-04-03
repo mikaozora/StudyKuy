@@ -67,7 +67,129 @@
 }
 
 .carousel {
-    background-color: var(--light-grey);
+    background-color: var(--lighter-grey);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+    align-items: flex-start;
+    overflow-x: scroll;
+}
+
+.card {
+    background-color: var(--white);
+    min-width: 350px;
+    max-width: 350px;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 0px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover .card-back{
+    opacity: 1;
+}
+
+.card:first-child {
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.card:last-child {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-details {
+    width: 100%;
+    padding: 20px;
+}
+
+.card-details h2 {
+    font-size: 1.4rem;
+    font-family: montserrat-semi;
+    color: var(--near-black);
+    margin-bottom: 5px;
+}
+
+.card-details h3 {
+    font-size: 1.2rem;
+    font-family: montserrat-semi;
+    color: var(--near-black);
+    margin: 10px 0px 5px 0px;
+}
+
+.card-details p {
+    font-family: montserrat-reg;
+    color: var(--lighter-black);
+    font-size: 1rem;
+}
+
+.card-back {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    padding: 40px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-back h4 {
+    font-size: 1rem;
+    font-family: montserrat-reg;
+    color: var(--less-primary);
+}
+
+.card-back h2 {
+    font-size: 1.6rem;
+    font-family: montserrat-bold;
+    color: var(--near-black);
+}
+
+.card-back p {
+    font-family: montserrat-reg;
+    color: var(--lighter-black);
+    font-size: 1rem;
+}
+
+.card-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-btn h2 {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 15px 30px;
+    text-align: center;
+    font-family: montserrat-semi;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.card-btn img {
+    height: 40px;
+    width: fit-content;
 }
 
 .margin {
