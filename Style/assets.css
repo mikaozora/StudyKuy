@@ -37,4 +37,6 @@
     --lighter-grey: #F1F1F1;
     --primary: #157AFE;
     --less-primary: #246EB9;
+    --white-transparent: rgba(256, 256, 256, 0.95);
+    --black-transparent: rgba(50, 50, 50, 0.3);
 }
