@@ -48,44 +48,7 @@ let profileLink = [
     },
 ]
 
-let searchData = [
-    {
-        name: "Python",
-        link: ""
-    },
-    {
-        name: "Web Development",
-        link: ""
-    },
-    {
-        name: "Application mobile",
-        link: ""
-    },
-    {
-        name: "Data scientist",
-        link: ""
-    },
-    {
-        name: "30 days package",
-        link: ""
-    },
-    {
-        name: "UI/UX Design",
-        link: ""
-    },
-    {
-        name: "Cyber Security",
-        link: ""
-    },
-    {
-        name: "AI with Python",
-        link: ""
-    },
-    {
-        name: "HTML & CSS Course",
-        link: ""
-    }
-]
+import { searchData } from "./course.js"
 
 let category = document.getElementById("nav-categories")
 let categoryBtn = document.getElementById("categories") 

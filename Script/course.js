@@ -2,7 +2,7 @@ let courses = [
     {
         name: "Mobile Development",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
         image: "../assets/images/class/mobile-dev.png",
         teacher: "John Doe",
         class: 10,
@@ -10,7 +10,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["mobile-dev"]
+        status: ["mobile-dev"],
+        rating: 4
     },
     {
         name: "Web Development",
@@ -23,7 +24,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"]
+        status: ["web-dev"],
+        rating: 4
     },
     {
         name: "Data Analyst",
@@ -36,7 +38,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["analyst", "promo"]
+        status: ["analyst", "promo"],
+        rating: 4
     },
     {
         name: "UI/UX Design",
@@ -49,7 +52,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["design"]
+        status: ["design"],
+        rating: 4
     },
     {
         name: "Javascript Course",
@@ -62,7 +66,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"]
+        status: ["web-dev"],
+        rating: 4
     },
     {
         name: "HTML & CSS Course",
@@ -75,7 +80,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"]
+        status: ["web-dev"],
+        rating: 4
     },
     {
         name: "MySQL Course",
@@ -88,7 +94,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"]
+        status: ["web-dev"],
+        rating: 4
     },
     {
         name: "AI With Python",
@@ -101,7 +108,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["programming", "ai", "popular"]
+        status: ["programming", "ai", "popular"],
+        rating: 4
     },
     {
         name: "React JS",
@@ -114,7 +122,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["web-dev", "popular"]
+        status: ["web-dev", "popular"],
+        rating: 4
     },
     {
         name: "Cyber Security",
@@ -127,7 +136,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["security", "popular"]
+        status: ["security", "popular"],
+        rating: 4
     },
     {
         name: "Basic OOP in Java",
@@ -140,7 +150,8 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["programming", "popular"]
+        status: ["programming", "popular"],
+        rating: 4
     },
     {
         name: "30 Days Package",
@@ -153,9 +164,12 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["programming", "promo"]
+        status: ["programming", "promo"],
+        rating: 4
     },
 ]
+
+export let searchData = courses
 
 let slider1 = document.getElementById("slider1")
 let slider2 = document.getElementById("slider2")
