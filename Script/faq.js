@@ -1,4 +1,4 @@
-let data = [
+let faqData = [
     {
         question: "Can beginners join in learning?",
         explain: "Our mentors have provided free classes that beginners can learn to understand the basic knowledge of the career they are interested in, after completing the Starter class (free) we recommend that you continue to one of the Premium classes to build real-world projects and portfolios according to your needs. working standards."
@@ -28,7 +28,7 @@ let data = [
 let faqs = document.getElementsByClassName("faq-container")
 let faq = document.getElementById("faq-content")
 
-data.forEach(el => {
+faqData.forEach(el => {
     let container = document.createElement("div")
     container.classList.add("faq-container")
 
@@ -65,16 +65,3 @@ data.forEach(el => {
 
     faq.appendChild(container)
 });
-
-// for (let i = 0; i < faqs.length; i++) {
-//     faqs[i].addEventListener("click", (e)=>{
-//         let arrow = faqs[i].firstElementChild.lastElementChild
-//         if (arrow.classList.contains("faq-arrow-focused")) {
-//             arrow.classList.remove("faq-arrow-focused")
-//             faqs[i].lastElementChild.classList.add("faq-hidden")
-//         } else {
-//             arrow.classList.add("faq-arrow-focused")
-//             faqs[i].lastElementChild.classList.remove("faq-hidden")
-//         }
-//     })
-// }

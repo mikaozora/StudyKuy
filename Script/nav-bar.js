@@ -48,7 +48,7 @@ let profileLink = [
     },
 ]
 
-let dataBase = [
+let searchData = [
     {
         name: "Python",
         link: ""
@@ -193,7 +193,7 @@ searchBar.addEventListener("input", (e)=> {
 
     let drop = document.createElement("div")
     drop.classList.add("search-result")
-    dataBase.forEach(el => {
+    searchData.forEach(el => {
         let temp = el.name
         if (temp.toLowerCase().includes(searchVal.toLowerCase())) {
             let link = document.createElement("a")

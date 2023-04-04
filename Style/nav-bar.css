@@ -36,6 +36,7 @@
     font-size: 1.2rem;
     color: var(--near-black);
     cursor: pointer;
+    font-weight: normal;
 }
 
 .drop-categories {
@@ -218,6 +219,7 @@
     font-family: montserrat-reg;
     font-size: 1.2rem;
     color: var(--near-black);
+    font-weight: normal;
 }
 
 .profile-wrapper h4 {
@@ -225,6 +227,7 @@
     font-size: 1rem;
     color: var(--medium-grey);
     margin-top: 2px;
+    font-weight: normal;
 }
 
 .drop-profile a {
@@ -255,6 +258,7 @@
     font-family: montserrat-reg;
     font-size: 1.2rem;
     color: var(--near-black);
+    font-weight: normal;
 }
 
 @keyframes fade-in {
