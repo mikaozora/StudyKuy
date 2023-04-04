@@ -11,7 +11,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["mobile-dev"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "Web Development",
@@ -25,7 +26,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "Data Analyst",
@@ -39,7 +41,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["analyst", "promo"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "UI/UX Design",
@@ -53,7 +56,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["design"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "Javascript Course",
@@ -67,7 +71,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "HTML & CSS Course",
@@ -81,7 +86,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "MySQL Course",
@@ -95,7 +101,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "AI With Python",
@@ -109,7 +116,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["programming", "ai", "popular"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "React JS",
@@ -123,7 +131,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["web-dev", "popular"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "Cyber Security",
@@ -136,8 +145,9 @@ let courses = [
         price: "100.000",
         id: "",
         lastUpdate: "22 November 2022",
-        status: ["security", "popular"],
-        rating: 4
+        status: ["security", "popular", "promo"],
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "Basic OOP in Java",
@@ -151,7 +161,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["programming", "popular"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
     {
         name: "30 Days Package",
@@ -165,7 +176,8 @@ let courses = [
         id: "",
         lastUpdate: "22 November 2022",
         status: ["programming", "promo"],
-        rating: 4
+        rating: 4,
+        discount: "70%"
     },
 ]
 
@@ -237,6 +249,85 @@ function cardBuilder(course) {
     return card
 }
 
+function promoBuilder(course) {
+    let promotion = document.createElement("div")
+    promotion.classList.add("promo")
+
+    let image = document.createElement("img")
+    image.src = course.image
+
+    let banner = document.createElement("div")
+    banner.classList.add("promo-banner")
+
+    let discount = document.createElement("h3")
+    discount.innerHTML = course.discount + " discount"
+
+    banner.appendChild(discount)
+
+    let details = document.createElement("div")
+    details.classList.add("promo-details")
+
+    let courseName = document.createElement("h2")
+    courseName.innerHTML = course.name
+
+    let rating = document.createElement("div")
+    rating.classList.add("promo-rating")
+
+    for (let i = 0; i < course.rating; i++) {
+        let star = document.createElement("img")
+        star.src = "Assets/icons/star.svg"
+
+        rating.appendChild(star)
+    }
+
+    let price = document.createElement("h3")
+    price.innerHTML = "Rp. " + course.price
+
+    let promoPrice = document.createElement("div")
+    promoPrice.classList.add("promo-price")
+
+    let disc = document.createElement("h4")
+    disc.innerHTML = course.discount
+
+    let finalPrice = document.createElement("h3")
+    finalPrice.innerHTML = "Rp. " + "299.000"
+
+    promoPrice.appendChild(disc)
+    promoPrice.appendChild(finalPrice)
+
+    let desc = document.createElement("h5")
+    desc.innerHTML = "Description:"
+
+    let explain = document.createElement("p")
+    explain.innerHTML = course.detail
+
+    let btn = document.createElement("div")
+    btn.classList.add("promo-btn")
+
+    let addCart = document.createElement("h2")
+    addCart.innerHTML = "Add to cart"
+
+    let save = document.createElement("img")
+    save.src = "Assets/icons/bookmark.svg"
+
+    btn.appendChild(addCart)
+    btn.appendChild(save)
+
+    details.appendChild(courseName)
+    details.appendChild(rating)
+    details.appendChild(price)
+    details.appendChild(promoPrice)
+    details.appendChild(desc)
+    details.appendChild(explain)
+    details.appendChild(btn)
+
+    promotion.appendChild(image)
+    promotion.appendChild(banner)
+    promotion.appendChild(details)
+
+    return promotion
+}
+
 function loadSlider1() {
     let carousel = document.createElement("div")
     carousel.classList.add("carousel")
@@ -277,6 +368,23 @@ function loadSlider3() {
     slider3.appendChild(carousel)
 }
 
+
+
+function loadPromo() {
+    let promos = document.createElement("div")
+    promos.classList.add("promos")
+
+    courses.forEach(course => {
+        if (course.status.includes("promo")) {
+            let promotion = promoBuilder(course)
+            promos.appendChild(promotion)
+        }
+    });
+    
+    promo.appendChild(promos)
+}
+
 loadSlider1()
 loadSlider2()
 loadSlider3()
+loadPromo()
