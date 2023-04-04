@@ -93,6 +93,8 @@
     position: absolute;
     background-color: var(--white);
     border-radius: 5px;
+
+    animation: fade-in 0.3s;
 }
 
 .search-result a{
@@ -189,6 +191,8 @@
     background-color: rgba(256, 256, 256, 0.95);
     display: flex;
     flex-direction: column;
+
+    animation: fade-in 0.3s;
 }
 
 .identity {
