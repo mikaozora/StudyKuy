@@ -246,6 +246,13 @@ function cardBuilder(course) {
 
     let save = document.createElement("img")
     save.src = "Assets/icons/bookmark.svg"
+    save.addEventListener("click", (e)=>{
+        if (save.src.includes("Assets/icons/bookmark.svg")) {
+            save.src ="Assets/icons/bookmark-fill.svg"
+        } else {
+            save.src = "Assets/icons/bookmark.svg"
+        }
+    })
 
     btn.appendChild(addCart)
     btn.appendChild(save)
@@ -325,6 +332,13 @@ function promoBuilder(course) {
 
     let save = document.createElement("img")
     save.src = "Assets/icons/bookmark.svg"
+    save.addEventListener("click", (e)=>{
+        if (save.src.includes("Assets/icons/bookmark.svg")) {
+            save.src ="Assets/icons/bookmark-fill.svg"
+        } else {
+            save.src = "Assets/icons/bookmark.svg"
+        }
+    })
 
     btn.appendChild(addCart)
     btn.appendChild(save)
