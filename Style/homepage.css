@@ -202,7 +202,6 @@
 
 .card-btn h2 {
     width: 100%;
-    background-color: var(--primary);
     color: var(--white);
     padding: 15px 30px;
     text-align: center;
@@ -213,6 +212,14 @@
     margin-right: 20px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.standby {
+    background-color: var(--primary);
+}
+
+.added {
+    background-color: var(--fanta-red);
 }
 
 .card-btn h2:hover {
@@ -370,7 +377,6 @@
 
 .promo-btn h2 {
     width: 100%;
-    background-color: var(--primary);
     color: var(--white);
     padding: 15px 30px;
     text-align: center;

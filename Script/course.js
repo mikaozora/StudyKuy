@@ -188,6 +188,18 @@ let slider2 = document.getElementById("slider2")
 let slider3 = document.getElementById("slider3")
 let promo = document.getElementById("promo")
 
+function changeBtn(btn) {
+    if (btn.classList.contains("added")) {
+        btn.classList.remove("added")
+        btn.classList.add("standby")
+        btn.innerHTML = "Add to cart"
+    } else {
+        btn.classList.add("added")
+        btn.classList.remove("standby")
+        btn.innerHTML = "Remove this item"
+    }
+}
+
 function cardBuilder(course) {
     let card = document.createElement("div")
     card.classList.add("card")
@@ -229,6 +241,8 @@ function cardBuilder(course) {
 
     let addCart = document.createElement("h2")
     addCart.innerHTML = "Add to cart"
+    addCart.classList.add("standby")
+    addCart.addEventListener("click", (e)=>changeBtn(addCart))
 
     let save = document.createElement("img")
     save.src = "Assets/icons/bookmark.svg"
@@ -306,6 +320,8 @@ function promoBuilder(course) {
 
     let addCart = document.createElement("h2")
     addCart.innerHTML = "Add to cart"
+    addCart.classList.add("standby")
+    addCart.addEventListener("click", (e)=>changeBtn(addCart))
 
     let save = document.createElement("img")
     save.src = "Assets/icons/bookmark.svg"
