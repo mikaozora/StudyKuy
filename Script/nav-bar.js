@@ -160,8 +160,9 @@ searchBar.addEventListener("input", (e)=> {
         let temp = el.name
         if (temp.toLowerCase().includes(searchVal.toLowerCase())) {
             let link = document.createElement("a")
-            link.href = el.link
+            link.href = "#" + el.link
             link.innerHTML = el.name
+            link.addEventListener("click", closeSearch)
 
             drop.appendChild(link)
         }

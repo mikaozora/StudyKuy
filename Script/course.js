@@ -203,6 +203,7 @@ function changeBtn(btn) {
 function cardBuilder(course) {
     let card = document.createElement("div")
     card.classList.add("card")
+    card.id = course.link
 
     let image = document.createElement("img")
     image.src = course.image
@@ -358,6 +359,12 @@ function promoBuilder(course) {
     return promotion
 }
 
+function randomID(data) {
+    data.forEach(el => {
+        el.link = Math.floor(Math.random() * 1000000);
+    });
+}
+
 function loadSlider1() {
     let carousel = document.createElement("div")
     carousel.classList.add("carousel")
@@ -414,6 +421,7 @@ function loadPromo() {
     promo.appendChild(promos)
 }
 
+randomID(courses)
 loadSlider1()
 loadSlider2()
 loadSlider3()
