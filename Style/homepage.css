@@ -110,12 +110,14 @@
     position: relative;
     overflow: hidden;
     scroll-margin-top: 30vh;
+    scroll-margin-bottom: 30vh;
     scroll-margin-left: 30vw;
+    scroll-margin-right: 30vw;
 }
 
 .card:target {
-    animation: temp-highlight 2s;
-    animation-timing-function: linear;
+    animation: temp-highlight 1.5s;
+    animation-timing-function: ease-out;
 }
 
 .card:hover .card-back{
