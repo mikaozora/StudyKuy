@@ -44,7 +44,7 @@ let profileLink = [
     },
     {
         name: "Log out",
-        link: ""
+        link: "login.html"
     },
 ]
 

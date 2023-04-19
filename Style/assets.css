@@ -9,6 +9,11 @@
     src: url(../Assets/fonts/Montserrat-Bold.ttf);
     font-style: normal;
 }
+@font-face {
+    font-family: montserrat-med;
+    src: url(../Assets/fonts/Montserrat-Medium.ttf);
+    font-style: normal;
+}
 
 @font-face {
     font-family: montserrat-black;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/assets.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="shortcut icon" type="image/svg" href="Assets/simple-logo.svg">
+    <title>StudyKuy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrap-left">
+            <h3>StudyKuy.</h3>
+            <h2>Signup</h2>
+            <p>Create an account and let's study with me</p>
+            <div class="wrap-input">
+                <p class="label">Name</p>
+                <input type="text" placeholder="John Doe">
+            </div>
+            <div class="wrap-input">
+                <p class="label">Email</p>
+                <input type="email" placeholder="example@gmail.com">
+            </div>
+            <div class="wrap-input">
+                <div class="label-pass">
+                    <p class="label">Password</p>
+                    <p class="label" id="forgot"></p>
+                </div>    
+                <input type="password" placeholder="min 8 characters">
+            </div>
+            <a href="index.html"><button class="btn-signup">Signup</button></a>
+            <div class="continue">
+                <div class="line"></div>
+                <p class="label-continue">or continue with</p>
+                <div class="line"></div>
+            </div>
+            <button class="google"><img src="Assets/google-logo.png" alt=""><p class="label-google">Sign up with Google</p></button>
+            <div class="signup">Already have an account?<a href="login.html"><span>Login</span></a></div>
+        </div>
+        <div class="wrap-right">
+            <div class="rect">
+                <div class="title">Let us help you to grow with your passion.</div>
+                <p class="desc">Discover the world's best community of developer and designer</p>
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                        <div class="slide first">
+                            <div class="wrap-slide">
+                                <div class="testi">Very easy to use. I made back the purchase price in just 48 hours! It's great. It's is both attractive and highly adaptable.</div>
+                                <div class="profile">
+                                    <img src="Assets/face/face1.png" alt="">
+                                    <div class="wrap-name">
+                                        <h3>John Doe</h3>
+                                        <p>Website Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="wrap-slide">
+                                <div class="testi">I STRONGLY recommend it to EVERYONE interested in running a successful UI/UX Designer!</div>
+                                <div class="profile">
+                                    <img src="Assets/face/face2.png" alt="">
+                                    <div class="wrap-name">
+                                        <h3>Jake Nakos</h3>
+                                        <p>UI/UX Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="wrap-slide">
+                                <div class="testi">Your company is truly upstanding and is behind its product 100%. It's the perfect solution for my career. It has really helped my future career.</div>
+                                <div class="profile">
+                                    <img src="Assets/face/face3.png" alt="">
+                                    <div class="wrap-name">
+                                        <h3>Julian Wan</h3>
+                                        <p>Mobile Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                    </div> 
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script/login.js" type="text/javascript"></script>
+</body>
+</html>
