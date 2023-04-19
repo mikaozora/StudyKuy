@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/nav-bar.css" />
+    <link rel="stylesheet" href="Style/assets.css" />
+    <link rel="stylesheet" href="style/cart.css" />
+    <link rel="stylesheet" href="Style/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" type="image/svg" href="Assets/simple-logo.svg" />
+    <script src="Script/faq.js" defer=""></script>
+    <script src="Script/banner.js" defer=""></script>
+    <script src="Script/nav-bar.js" type="module" defer=""></script>
+    <script src="Script/course.js" type="module" defer=""></script>
+    <title>StudyKuy</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="Assets/logo.svg" />
+        </div>
+        <div class="nav-categories" id="nav-categories">
+          <h3 id="categories">Categories</h3>
+        </div>
+        <div class="nav-search" id="search">
+          <img src="Assets/icons/search.svg" id="magnify" />
+          <img src="Assets/icons/close.svg" id="close" class="hidden" />
+          <input
+            type="text"
+            name="nav-search"
+            id="nav-search"
+            placeholder="Search for anything"
+            class="search-bar"
+          />
+        </div>
+        <div class="nav-my-class">
+          <a href="" id="my-class">My Class</a>
+        </div>
+        <div class="nav-cart">
+          <a href="cart.html" id="nav-cart"
+            ><img src="Assets/icons/buy.svg"
+          /></a>
+        </div>
+        <div class="nav-non-log">
+          <a href="">Login</a>
+        </div>
+        <div class="nav-logged" id="nav-logged">
+          <div class="profile" id="profile">
+            <img src="Assets/images/john.png" id="profile-picture" />
+            <h3 id="username">John Doe</h3>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="section-header">
+        <div class="wrap-header">
+          <a href="index.html"><img src="Assets/icons/back.svg" alt="" /></a>
+          <h2>Your Cart</h2>
+        </div>
+      </div>
+      <div class="wrap-content">
+        <div class="list">
+          <div class="detail-list">
+            <input type="checkbox" id="checkbox" />
+            <div class="wrap-detail">
+              <h3>AI With Python</h3>
+              <p>Rp700.000</p>
+            </div>
+          </div>
+          <div class="detail-list">
+            <input type="checkbox" id="checkbox" />
+            <div class="wrap-detail">
+              <h3>HTML & CSS Course</h3>
+              <p>Rp200.000</p>
+            </div>
+          </div>
+          <div class="detail-list">
+            <input type="checkbox" id="checkbox" />
+            <div class="wrap-detail">
+              <h3>Javascript Crash Course</h3>
+              <p>Rp500.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="checkout">
+          <div class="voucher">
+            <h2>Apply Voucher</h2>
+            <div class="wrap-voucher">
+              <input
+                type="text"
+                name="code"
+                class="code"
+                placeholder="Enter code..."
+                autocomplete="off"
+              />
+              <button class="apply">Apply</button>
+            </div>
+          </div>
+          <div class="payment">
+            <h2>Payment Details</h2>
+            <div class="detail">
+              <div class="wrapper">
+                <h3 class="left">Product Name</h3>
+                <h3 class="right">Price</h3>
+              </div>
+              <div class="wrapper">
+                <p class="left">AI With Python</p>
+                <p class="right">Rp200.000</p>
+              </div>
+              <div class="wrapper">
+                <p class="left">HTML & CSS Course</p>
+                <p class="right">Rp500.000</p>
+              </div>
+              <div class="line"></div>
+              <div class="wrapper" id="last">
+                <h2 class="left" id="ttl1">Total</h2>
+                <h2 class="right" id="ttl2">Rp700.000</h2>
+              </div>
+            </div>
+          </div>
+          <a href="checkout.html"><button class="btn-checkout">Checkout</button></a>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <img class="logo" src="Assets/logo-white.svg" />
+      <div class="footer-info">
+        <div class="footer-section">
+          <h2>StudyKuy Office</h2>
+          <p>
+            Rumah Talenta BCA Jl. Pakuan No. 5, Kelurahan Sumur Batu, Kecamatan
+            Babakan Madang, Kabupaten Bogor, Jawa Barat 16810
+          </p>
+        </div>
+        <div class="footer-section">
+          <h2>Our Course</h2>
+          <div class="footer-link">
+            <a href="">Web programming</a>
+            <a href="">Data scientist</a>
+            <a href="">Android developer</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>support@studykuy.com</p>
+          <p>(+62) 8932481049</p>
+        </div>
+        <div class="footer-section">
+          <h2>Follow Us</h2>
+          <div class="social-media">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-programing">
+        <img src="Assets/images/languages/html.png" />
+        <img src="Assets/images/languages/css.png" />
+        <img src="Assets/images/languages/js.png" />
+        <img src="Assets/images/languages/c-plus-plus.png" />
+        <img src="Assets/images/languages/java.png" />
+        <img src="Assets/images/languages/python.png" />
+      </div>
+    </div>
+  </body>
+</html>

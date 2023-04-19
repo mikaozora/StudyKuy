@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  height: 280px;
+  background-color: #e6f1ff;
+  margin-bottom: 67px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-end;
+}
+
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-left: 82px;
+}
+
+.wrap-header img {
+  margin-right: 550px;
+}
+
+.wrap-header h2 {
+  font-family: montserrat-bold;
+  font-size: 2.2rem;
+}
+
+.wrap-content {
+  padding: 0 92px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+}
+
+.list .detail-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.list .detail-list input[type="checkbox"] {
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  border: 1.5px solid var(--lighter-black);
+  cursor: pointer;
+  background-color: white;
+  appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 32px;
+  transition: background-color 0.3s ease-in;
+}
+
+.list .detail-list input[type="checkbox"]::after {
+  content: "\2714";
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  display: none;
+  transition: color 0.3s ease-in;
+}
+
+.list .detail-list input[type="checkbox"]:checked {
+  background-color: var(--primary);
+  border: 1.5px solid var(--primary);
+}
+
+.list .detail-list input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.list .detail-list .wrap-detail {
+  padding: 30px 0 30px 36px;
+  border: 1.5px solid var(--medium-grey);
+  width: 510px;
+  border-radius: 5px;
+}
+.list .detail-list .wrap-detail h3 {
+  font-family: montserrat-semi;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+.list .detail-list .wrap-detail p {
+  font-family: montserrat-reg;
+  font-size: 1rem;
+  color: var(--lighter-black);
+}
+
+.checkout .voucher h2{
+    font-family: montserrat-bold;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.checkout .voucher .wrap-voucher{
+    padding: 26px 22px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+}
+
+.checkout .voucher .wrap-voucher .code{
+    padding: 14px 133px 14px 19px;
+    border: 1px solid #858585;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    color: #858585;
+    font-family: montserrat-med;
+    font-size: 1rem;
+}
+
+.checkout .voucher .wrap-voucher .apply{
+    font-family: montserrat-semi;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--primary);
+    border-radius: 5px;
+    border: 1px solid var(--primary);
+    padding: 14px 48px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.checkout .voucher .wrap-voucher .apply:hover{
+    opacity: .7;
+}
+
+.payment{
+    padding: 36px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.payment h2{
+    font-family: montserrat-bold;
+    font-size: 1.5rem;
+    margin-bottom: 45px;
+}
+
+.payment .detail .wrapper{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.payment .detail .wrapper .left{
+    width: 370px;
+    font-family: montserrat-reg;
+    font-size: 1.1rem;
+    color: var(--near-black);
+}
+.payment .detail .wrapper .left h3{
+    font-family: montserrat-med;
+}
+.payment .detail .wrapper .right h3{
+    font-family: montserrat-med;
+}
+.payment .detail .wrapper .right{
+    font-family: montserrat-reg;
+    font-size: 1.1rem;
+}
+
+.line{
+    height: 1.1px;
+    width: 476px;
+    background-color: var(--medium-grey);
+    margin-bottom: 24px;
+}
+
+#ttl1{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+#ttl2{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+#last{
+    margin-bottom: 0;
+}
+
+.btn-checkout{
+    font-family: montserrat-bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px 218px;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 53px;
+    cursor: pointer;
+}
+
+.btn-checkout:hover{
+    opacity: .7;
+}

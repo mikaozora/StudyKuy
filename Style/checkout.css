@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  height: 280px;
+  background-color: #e6f1ff;
+  margin-bottom: 67px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-end;
+}
+
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-left: 82px;
+}
+
+.wrap-header img {
+  margin-right: 550px;
+}
+
+.wrap-header h2 {
+  font-family: montserrat-bold;
+  font-size: 2.2rem;
+}
+
+.wrap-content {
+  padding: 0 84px;
+  display: flex;
+  justify-content: space-around;
+}
+.method {
+  padding: 43px 36px;
+  border: 1.5px solid var(--light-grey);
+  border-radius: 10px;
+  max-width: 575px;
+  margin-bottom: 56px;
+}
+
+.method h3 {
+  font-family: montserrat-bold;
+  font-size: 1.5rem;
+  margin-bottom: 41px;
+}
+
+.detail-method {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrap-wallet input[type="radio"] {
+  width: 22px;
+  height: 22px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.wrap-wallet {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.wrap-wallet .wallet-desc {
+  padding: 10px 10px;
+  border: 1.5px solid var(--medium-grey);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 190px;
+}
+
+.wrap-wallet .wallet-desc h4 {
+  font-family: montserrat-semi;
+  font-size: 1rem;
+  margin-left: 16px;
+}
+
+.order {
+  padding: 43px 36px;
+}
+
+.order h3 {
+  font-family: montserrat-bold;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.wrap-detail {
+  padding: 30px 0 30px 36px;
+  border: 1.5px solid var(--medium-grey);
+  width: 510px;
+  border-radius: 5px;
+  margin-bottom: 34px;
+}
+.wrap-detail h3 {
+  font-family: montserrat-semi;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+.wrap-detail p {
+  font-family: montserrat-reg;
+  font-size: 1rem;
+  color: var(--lighter-black);
+}
+
+.payment{
+    padding: 36px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.payment h2{
+    font-family: montserrat-bold;
+    font-size: 1.5rem;
+    margin-bottom: 45px;
+}
+
+.payment .detail .wrapper{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.payment .detail .wrapper .left{
+    width: 370px;
+    font-family: montserrat-reg;
+    font-size: 1.1rem;
+    color: var(--near-black);
+}
+
+.payment .detail .wrapper .right{
+    font-family: montserrat-reg;
+    font-size: 1.1rem;
+}
+
+.line{
+    height: 1.1px;
+    width: 476px;
+    background-color: var(--medium-grey);
+    margin-bottom: 24px;
+}
+
+#ttl1{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+#ttl2{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+#last{
+    margin-bottom: 0;
+}
+
+.btn-checkout{
+    font-family: montserrat-bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px 184px;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 53px;
+    cursor: pointer;
+}
+.btn-checkout:hover{
+    opacity: .7;
+}
+
+.overlay{
+    position: absolute;
+    height: 259vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 101;
+}
+
+body.active .overlay{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 861px;
+    height: 539px;
+    background-color: white;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(1.2);
+    top: 50%;
+    left: 50%;
+    z-index: 102;
+    border-radius: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in;
+}
+
+body.active .modal-box{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content h2{
+    font-family: montserrat-bold;
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+}
+.modal-content p{
+    font-family: montserrat-reg;
+    font-size: 1rem;
+    max-width: 262px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.modal-content .btn-modal{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 18px 90px;
+    font-family: montserrat-semi;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-content .btn-modal:hover{
+    opacity: .7;
+}
