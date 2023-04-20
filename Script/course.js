@@ -8,7 +8,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "392854",
         lastUpdate: "22 November 2022",
         status: ["mobile-dev"],
         rating: 4,
@@ -23,7 +23,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "469246",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
         rating: 4,
@@ -38,7 +38,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "805313",
         lastUpdate: "22 November 2022",
         status: ["analyst", "promo"],
         rating: 4,
@@ -53,7 +53,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "945565",
         lastUpdate: "22 November 2022",
         status: ["design"],
         rating: 4,
@@ -68,7 +68,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "124807",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
         rating: 4,
@@ -83,7 +83,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "158348",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
         rating: 4,
@@ -98,7 +98,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "905461",
         lastUpdate: "22 November 2022",
         status: ["web-dev"],
         rating: 4,
@@ -113,7 +113,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "537724",
         lastUpdate: "22 November 2022",
         status: ["programming", "ai", "popular"],
         rating: 4,
@@ -128,7 +128,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "368035",
         lastUpdate: "22 November 2022",
         status: ["web-dev", "popular"],
         rating: 4,
@@ -143,7 +143,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "135832",
         lastUpdate: "22 November 2022",
         status: ["security", "popular", "promo"],
         rating: 4,
@@ -158,7 +158,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "895160",
         lastUpdate: "22 November 2022",
         status: ["programming", "popular"],
         rating: 4,
@@ -173,7 +173,7 @@ let courses = [
         class: 10,
         hours: 55,
         price: "100.000",
-        id: "",
+        id: "149638",
         lastUpdate: "22 November 2022",
         status: ["programming", "promo"],
         rating: 4,
@@ -203,7 +203,7 @@ function changeBtn(btn) {
 function cardBuilder(course) {
     let card = document.createElement("div")
     card.classList.add("card")
-    card.id = course.link
+    card.id = course.id
 
     let image = document.createElement("img")
     image.src = course.image
@@ -359,12 +359,6 @@ function promoBuilder(course) {
     return promotion
 }
 
-function randomID(data) {
-    data.forEach(el => {
-        el.link = Math.floor(Math.random() * 1000000);
-    });
-}
-
 function loadSlider1() {
     let carousel = document.createElement("div")
     carousel.classList.add("carousel")
@@ -421,8 +415,9 @@ function loadPromo() {
     promo.appendChild(promos)
 }
 
-randomID(courses)
-loadSlider1()
-loadSlider2()
-loadSlider3()
-loadPromo()
+if (slider1 != null) {
+    loadSlider1()
+    loadSlider2()
+    loadSlider3()
+    loadPromo()
+}
