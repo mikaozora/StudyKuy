@@ -2,7 +2,7 @@ let courses = [
     {
         name: "Mobile Development",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/mobile-dev.png",
         teacher: "John Doe",
         class: 10,
@@ -17,7 +17,7 @@ let courses = [
     {
         name: "Web Development",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/web-dev.png",
         teacher: "John Doe",
         class: 10,
@@ -32,7 +32,7 @@ let courses = [
     {
         name: "Data Analyst",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/data-analyst.png",
         teacher: "John Doe",
         class: 10,
@@ -47,7 +47,7 @@ let courses = [
     {
         name: "UI/UX Design",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/ui-ux-design.png",
         teacher: "John Doe",
         class: 10,
@@ -62,7 +62,7 @@ let courses = [
     {
         name: "Javascript Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/javascript-course.png",
         teacher: "John Doe",
         class: 10,
@@ -77,7 +77,7 @@ let courses = [
     {
         name: "HTML & CSS Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/html-css.png",
         teacher: "John Doe",
         class: 10,
@@ -92,7 +92,7 @@ let courses = [
     {
         name: "MySQL Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/mysql-course.png",
         teacher: "John Doe",
         class: 10,
@@ -107,7 +107,7 @@ let courses = [
     {
         name: "AI With Python",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/ai-with-python.png",
         teacher: "John Doe",
         class: 10,
@@ -122,7 +122,7 @@ let courses = [
     {
         name: "React JS",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/react-js.png",
         teacher: "John Doe",
         class: 10,
@@ -137,7 +137,7 @@ let courses = [
     {
         name: "Cyber Security",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/cyber-security.png",
         teacher: "John Doe",
         class: 10,
@@ -152,7 +152,7 @@ let courses = [
     {
         name: "Basic OOP in Java",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/basic-oop-java.png",
         teacher: "John Doe",
         class: 10,
@@ -167,7 +167,7 @@ let courses = [
     {
         name: "30 Days Package",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/30-days.png",
         teacher: "John Doe",
         class: 10,
@@ -182,7 +182,7 @@ let courses = [
     {
         name: "Android Development",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/android.png",
         teacher: "John Doe",
         class: 10,
@@ -197,7 +197,7 @@ let courses = [
     {
         name: "Kotlin",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/kotlin.png",
         teacher: "John Doe",
         class: 10,
@@ -212,7 +212,7 @@ let courses = [
     {
         name: "C++ Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/c++.png",
         teacher: "John Doe",
         class: 10,
@@ -227,7 +227,7 @@ let courses = [
     {
         name: "Ruby Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/ruby.png",
         teacher: "John Doe",
         class: 10,
@@ -242,7 +242,7 @@ let courses = [
     {
         name: "C# Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/c-sharp.png",
         teacher: "John Doe",
         class: 10,
@@ -257,7 +257,7 @@ let courses = [
     {
         name: "PHP Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/php-course.png",
         teacher: "John Doe",
         class: 10,
@@ -272,7 +272,7 @@ let courses = [
     {
         name: "Wordpress Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/wordpress.png",
         teacher: "John Doe",
         class: 10,
@@ -287,7 +287,7 @@ let courses = [
     {
         name: "XML Course",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/xml.png",
         teacher: "John Doe",
         class: 10,
@@ -302,7 +302,7 @@ let courses = [
     {
         name: "Insight For Business...",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/insight.png",
         teacher: "John Doe",
         class: 10,
@@ -317,7 +317,7 @@ let courses = [
     {
         name: "Maximizing Data for...",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/maximazing-data.png",
         teacher: "John Doe",
         class: 10,
@@ -332,7 +332,7 @@ let courses = [
     {
         name: "Tools for Data Analysts",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/tools-data.png",
         teacher: "John Doe",
         class: 10,
@@ -347,7 +347,7 @@ let courses = [
     {
         name: "From Data to Action",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/from-data.png",
         teacher: "John Doe",
         class: 10,
@@ -362,7 +362,7 @@ let courses = [
     {
         name: "Advanced Analyst",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/advanced-analytics.png",
         teacher: "John Doe",
         class: 10,
@@ -377,7 +377,7 @@ let courses = [
     {
         name: "Techniques Predictive...",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/techniques.png",
         teacher: "John Doe",
         class: 10,
@@ -392,7 +392,7 @@ let courses = [
     {
         name: "Programming Language",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/programming.png",
         teacher: "John Doe",
         class: 10,
@@ -407,7 +407,7 @@ let courses = [
     {
         name: "Computer Security",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/computer-security.png",
         teacher: "John Doe",
         class: 10,
@@ -422,7 +422,7 @@ let courses = [
     {
         name: "Software Maintenance",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/software-engineer.png",
         teacher: "John Doe",
         class: 10,
@@ -437,7 +437,7 @@ let courses = [
     {
         name: "Software Debugging",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/software-debugging.png",
         teacher: "John Doe",
         class: 10,
@@ -452,7 +452,7 @@ let courses = [
     {
         name: "Develop Program",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/develop-program.png",
         teacher: "John Doe",
         class: 10,
@@ -467,7 +467,7 @@ let courses = [
     {
         name: "Database",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/database.png",
         teacher: "John Doe",
         class: 10,
@@ -482,7 +482,7 @@ let courses = [
     {
         name: "Usability Testing",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/usability.png",
         teacher: "John Doe",
         class: 10,
@@ -497,7 +497,7 @@ let courses = [
     {
         name: "Interactive Design",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/interactive.png",
         teacher: "John Doe",
         class: 10,
@@ -512,7 +512,7 @@ let courses = [
     {
         name: "Website First Design",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/website.png",
         teacher: "John Doe",
         class: 10,
@@ -527,7 +527,7 @@ let courses = [
     {
         name: "Mobile First Design",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/mobile-first.png",
         teacher: "John Doe",
         class: 10,
@@ -542,7 +542,7 @@ let courses = [
     {
         name: "Sketches to Prototypes",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/sketches.png",
         teacher: "John Doe",
         class: 10,
@@ -557,7 +557,7 @@ let courses = [
     {
         name: "User Experiences",
         link: "",
-        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        detail: "Students will learn to use programming languages such as Swift and Java, as well as popular frameworks like React Native and Flutter to build high-quality mobile applications. They will also gain an understanding of fundamental concepts such as mobile app security, user experience design, and performance optimization.",
         image: "../assets/images/class/user-experiences.png",
         teacher: "John Doe",
         class: 10,
