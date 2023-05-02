@@ -1,34 +1,30 @@
 let categories = [
     {
         name: "Web Development",
-        link: ""
+        link: "classWeb.html"
     },
     {
         name: "Mobile Development",
-        link: ""
+        link: "classMobile.html"
     },
     {
         name: "Data Analyst",
-        link: ""
+        link: "classData.html"
     },
     {
         name: "Software Engineering",
-        link: ""
-    },
-    {
-        name: "Software Testing",
-        link: ""
+        link: "classSoftware.html"
     },
     {
         name: "UI/UX Designer",
-        link: ""
+        link: "classUI.html"
     },
 ]
 
 let profileLink = [
     {
         name: "Edit Profile",
-        link: ""
+        link: "editProfile.html"
     },
     {
         name: "Setting",

@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-header {
+    height: 280px;
+    background-color: #e6f1ff;
+    margin-bottom: 67px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+}
+
+.wrap-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 82px;
+  }
+  
+  .wrap-header img {
+    margin-right: 550px;
+  }
+  
+  .wrap-header h2 {
+    font-family: montserrat-bold;
+    font-size: 2.2rem;
+  }
+
+  .faq {
+    width: 90vw;
+}
+
+.faq-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: -20px;
+}
+
+.faq-container {
+    min-width: 400px;
+    width: calc(50% - 100px);
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+
+.faq-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-title h2 {
+    font-family: montserrat-semi;
+    font-size: 1.2rem;
+    color: var(--near-black);
+    margin-right: 20px;
+}
+
+.faq-explain {
+    margin-top: 30px;
+    border-top: 2px solid var(--light-grey);
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-subTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-subTitle h2 {
+    font-family: montserrat-semi;
+    font-size: 1rem;
+    color: #808080;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.faq-explain p {
+    font-size: 1rem;
+    font-family: montserrat-reg;
+    line-height: 1.4rem;
+    color: var(--lighter-black);
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-arrow {
+    font-size: 1.5rem;
+    color: var(--primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-arrow-focused {
+    transform: rotate(90deg);
+}
+
+.faq-hidden {
+    margin-top: 0px;
+    border: 0px;
+}
+
+.faq-hidden p {
+    font-size: 0rem;
+    margin-top: 0px;
+    line-height: 0rem;
+}
+
+.title{
+    position: absolute;
+    width: 136px;
+    height: 29px;
+    left: 790px;
+    top: 320px;
+    font-family: montserrat-semi;
+    font-size: 1.2em;
+    color: var(--near-black);
+    text-align: center;
+}
+
+.image{
+    position: absolute;
+    width: 554px;
+    height: 312px;
+    left: 802px;
+    top: 365px;
+}
+
+.btn-text{
+    font-family: montserrat-reg;
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    background-color: #C7CED1;
+    border-radius: 8px;
+    width: 231px;
+    height: 51px;
+    left: 810px;
+    top: 741px;
+    cursor: pointer;
+}
+
+.btn1{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    background-color:var(--primary);
+    border-radius: 8px;
+    width: 231px;
+    height: 51px;
+    left: 810px;
+    top: 835px;
+    cursor: pointer;
+}
+
+.btn2{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    background-color:var(--primary);
+    border-radius: 8px;
+    width: 231px;
+    height: 51px;
+    left: 810px;
+    top: 929px;
+    cursor: pointer;
+}
+
+.btn3{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    background-color:var(--primary);
+    border-radius: 8px;
+    width: 231px;
+    height: 51px;
+    left: 1100px;
+    top: 741px;
+    cursor: pointer;
+}
+
+.btn4{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    background-color:var(--primary);
+    border-radius: 8px;
+    width: 231px;
+    height: 51px;
+    left: 1100px;
+    top: 835px;
+    cursor: pointer;
+}
+
+.btn5{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    background-color:var(--primary);
+    border-radius: 8px;
+    width: 231px;
+    height: 51px;
+    left: 1100px;
+    top: 929px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+.btn1:hover{
+    opacity: .7;
+}
+.btn2:hover{
+    opacity: .7;
+}
+.btn3:hover{
+    opacity: .7;
+}
+.btn4:hover{
+    opacity: .7;
+}
+.btn5:hover{
+    opacity: .7;
+}
+
+.titleDesc{
+    position: absolute;
+    left: 793px;
+    top: 1050px;
+    font-family: montserrat-semi;
+    font-size: 20px;
+}
+
+.desc{
+    position: relative;
+    width: 550px;
+    height: 398px;
+    left: 793px;
+    font-family: montserrat-reg;
+    font-size: 15px;
+}

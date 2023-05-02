@@ -12,7 +12,7 @@ checkoutBtn.addEventListener('click', (e) => {
 btnModal.addEventListener('click', (e) => {
     e.preventDefault()
     body.classList.remove('active')
-    window.location.href = "#"
+    window.location.href = "myClass.html";
 })
 overlay.addEventListener('click', (e) => {
     e.preventDefault()

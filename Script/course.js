@@ -70,7 +70,7 @@ let courses = [
         price: "100.000",
         id: "124807",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"],
+        status: ["web-dev","webDev"],
         rating: 4,
         discount: "70%"
     },
@@ -85,7 +85,7 @@ let courses = [
         price: "100.000",
         id: "158348",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"],
+        status: ["web-dev","webDev"],
         rating: 4,
         discount: "70%"
     },
@@ -100,7 +100,7 @@ let courses = [
         price: "100.000",
         id: "905461",
         lastUpdate: "22 November 2022",
-        status: ["web-dev"],
+        status: ["web-dev","webDev"],
         rating: 4,
         discount: "70%"
     },
@@ -115,7 +115,7 @@ let courses = [
         price: "100.000",
         id: "537724",
         lastUpdate: "22 November 2022",
-        status: ["programming", "ai", "popular"],
+        status: ["programming", "ai", "popular","mob-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -179,6 +179,396 @@ let courses = [
         rating: 4,
         discount: "70%"
     },
+    {
+        name: "Android Development",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/android.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "1343123",
+        lastUpdate: "22 November 2022",
+        status: ["mob-dev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Kotlin",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/kotlin.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "677637",
+        lastUpdate: "22 November 2022",
+        status: ["mob-dev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "C++ Course",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/c++.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "987678",
+        lastUpdate: "22 November 2022",
+        status: ["mob-dev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Ruby Course",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/ruby.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "45678987",
+        lastUpdate: "22 November 2022",
+        status: ["mob-dev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "C# Course",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/c-sharp.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "9098789",
+        lastUpdate: "22 November 2022",
+        status: ["mob-dev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "PHP Course",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/php-course.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "56789098",
+        lastUpdate: "22 November 2022",
+        status: ["webDev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Wordpress Course",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/wordpress.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "3456789    ",
+        lastUpdate: "22 November 2022",
+        status: ["webDev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "XML Course",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/xml.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "456789    ",
+        lastUpdate: "22 November 2022",
+        status: ["webDev"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Insight For Business...",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/insight.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "567890    ",
+        lastUpdate: "22 November 2022",
+        status: ["dataAnalyst"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Maximizing Data for...",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/maximazing-data.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "5678098",
+        lastUpdate: "22 November 2022",
+        status: ["dataAnalyst"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Tools for Data Analysts",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/tools-data.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "67876",
+        lastUpdate: "22 November 2022",
+        status: ["dataAnalyst"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "From Data to Action",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/from-data.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "56787",
+        lastUpdate: "22 November 2022",
+        status: ["dataAnalyst"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Advanced Analyst",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/advanced-analytics.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "567898",
+        lastUpdate: "22 November 2022",
+        status: ["dataAnalyst"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Techniques Predictive...",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/techniques.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "567898",
+        lastUpdate: "22 November 2022",
+        status: ["dataAnalyst"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Programming Language",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/programming.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "4567898",
+        lastUpdate: "22 November 2022",
+        status: ["software"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Computer Security",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/computer-security.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "67898",
+        lastUpdate: "22 November 2022",
+        status: ["software"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Software Maintenance",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/software-engineer.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "67567898898",
+        lastUpdate: "22 November 2022",
+        status: ["software"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Software Debugging",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/software-debugging.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "567898",
+        lastUpdate: "22 November 2022",
+        status: ["software"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Develop Program",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/develop-program.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "67898",
+        lastUpdate: "22 November 2022",
+        status: ["software"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Database",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/database.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "678987",
+        lastUpdate: "22 November 2022",
+        status: ["software"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Usability Testing",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/usability.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "567809",
+        lastUpdate: "22 November 2022",
+        status: ["UI"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Interactive Design",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/interactive.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "678987",
+        lastUpdate: "22 November 2022",
+        status: ["UI"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Website First Design",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/website.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "67898762",
+        lastUpdate: "22 November 2022",
+        status: ["UI"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Mobile First Design",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/mobile-first.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "1234567890",
+        lastUpdate: "22 November 2022",
+        status: ["UI"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "Sketches to Prototypes",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/sketches.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "0987678",
+        lastUpdate: "22 November 2022",
+        status: ["UI"],
+        rating: 4,
+        discount: "70%"
+    },
+    {
+        name: "User Experiences",
+        link: "",
+        detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        image: "../assets/images/class/user-experiences.png",
+        teacher: "John Doe",
+        class: 10,
+        hours: 55,
+        price: "100.000",
+        id: "9879098",
+        lastUpdate: "22 November 2022",
+        status: ["UI"],
+        rating: 4,
+        discount: "70%"
+    },
 ]
 
 export let searchData = courses
@@ -186,6 +576,11 @@ export let searchData = courses
 let slider1 = document.getElementById("slider1")
 let slider2 = document.getElementById("slider2")
 let slider3 = document.getElementById("slider3")
+let mobDev = document.getElementById("mobDev")
+let webDev = document.getElementById("webDev")
+let dataAnalyst = document.getElementById("dataAnalyst")
+let software = document.getElementById("software")
+let UI = document.getElementById("UI")
 let promo = document.getElementById("promo")
 
 function changeBtn(btn) {
@@ -399,6 +794,76 @@ function loadSlider3() {
     slider3.appendChild(carousel)
 }
 
+function loadMobDev() {
+    let carousel = document.createElement("div")
+    carousel.classList.add("carousel")
+
+    courses.forEach(course => {
+        if (course.status.includes("mob-dev")) {
+            let card = cardBuilder(course)
+            carousel.appendChild(card)
+        }
+    });
+
+    mobDev.appendChild(carousel)
+}
+
+function loadWebDev() {
+    let carousel = document.createElement("div")
+    carousel.classList.add("carousel")
+
+    courses.forEach(course => {
+        if (course.status.includes("webDev")) {
+            let card = cardBuilder(course)
+            carousel.appendChild(card)
+        }
+    });
+
+    webDev.appendChild(carousel)
+}
+
+function loadDataAnalyst() {
+    let carousel = document.createElement("div")
+    carousel.classList.add("carousel")
+
+    courses.forEach(course => {
+        if (course.status.includes("dataAnalyst")) {
+            let card = cardBuilder(course)
+            carousel.appendChild(card)
+        }
+    });
+
+    dataAnalyst.appendChild(carousel)
+}
+
+function loadSoftware() {
+    let carousel = document.createElement("div")
+    carousel.classList.add("carousel")
+
+    courses.forEach(course => {
+        if (course.status.includes("software")) {
+            let card = cardBuilder(course)
+            carousel.appendChild(card)
+        }
+    });
+
+    software.appendChild(carousel)
+}
+
+function loadUI() {
+    let carousel = document.createElement("div")
+    carousel.classList.add("carousel")
+
+    courses.forEach(course => {
+        if (course.status.includes("UI")) {
+            let card = cardBuilder(course)
+            carousel.appendChild(card)
+        }
+    });
+
+    UI.appendChild(carousel)
+}
+
 
 
 function loadPromo() {
@@ -420,4 +885,24 @@ if (slider1 != null) {
     loadSlider2()
     loadSlider3()
     loadPromo()
+}
+
+if (mobDev != null) {
+    loadMobDev()
+}
+
+if (webDev != null) {
+    loadWebDev()
+}
+
+if (dataAnalyst != null) {
+    loadDataAnalyst()
+}
+
+if (software != null) {
+    loadSoftware()
+}
+
+if (UI != null) {
+    loadUI()
 }

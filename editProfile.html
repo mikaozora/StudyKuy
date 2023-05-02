@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/nav-bar.css" />
+    <link rel="stylesheet" href="Style/assets.css" />
+    <link rel="stylesheet" href="style/editProfile.css" />
+    <link rel="stylesheet" href="Style/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="shortcut icon" type="image/svg" href="Assets/simple-logo.svg" />
+    <script src="Script/nav-bar.js" type="module" defer=""></script>
+    <title>StudyKuy</title>
+</head>
+
+<body>
+
+    <span class="overlay"></span>
+    <div class="modal-box">
+        <div class="modal-content">
+            <img src="Assets/icons/success.png" alt="">
+            <h2>Success</h2>
+            <p>Successfuly update profile.<br>Let's learning again</p>
+            <a href="index.html"><button class="btn-modal">Go Home</button></a>
+        </div>
+    </div>
+
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Assets/logo.svg" />
+            </div>
+            <div class="nav-categories" id="nav-categories">
+                <h3 id="categories">Categories</h3>
+            </div>
+            <div class="nav-search" id="search">
+                <img src="Assets/icons/search.svg" id="magnify" />
+                <img src="Assets/icons/close.svg" id="close" class="hidden" />
+                <input type="text" name="nav-search" id="nav-search" placeholder="Search for anything"
+                    class="search-bar" />
+            </div>
+            <div class="nav-my-class">
+                <a href="myClass.html" id="my-class">My Class</a>
+            </div>
+            <div class="nav-cart">
+                <a href="cart.html" id="nav-cart"><img src="Assets/icons/buy.svg" /></a>
+            </div>
+            <div class="nav-non-log">
+                <a href="">Login</a>
+            </div>
+            <div class="nav-logged" id="nav-logged">
+                <div class="profile" id="profile">
+                    <img src="Assets/images/john.png" id="profile-picture" />
+                    <h3 id="username">John Doe</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section-header">
+        <div class="wrap-header">
+            <a href="index.html"><img src="Assets/icons/back.svg" alt="" /></a>
+            <h2>Edit Profile</h2>
+        </div>
+    </div>
+
+    <div class="titleHead">My Avatar</div>
+    <div class="contain">
+        <figure class="image-container">
+            <img id="chosen-image" src="/Assets//images/john1.png" height="150" width="150">
+        </figure>
+        <input type="file" id="upload-button" accept="image/*">
+        <div class="fileChoose">
+            <label for="upload-button">Choose File</label>
+        </div>
+        <div class="fileType">Format file jpg, jpeg, png.</div>
+
+        <div class="content">
+            <form id="form" action="/">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Name (Max. 50 Character)</span>
+                        <input id="nama" type="text" placeholder="John Doe">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input id="username1" type="text" placeholder="John Doe">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Addres</span>
+                        <input id="address" type="text" placeholder="Sudirman Street">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input id="password" type="password" placeholder="Min. 8 Characters">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input id="numberPhone" type="number" placeholder="08219321929482">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-box">
+                        <input type="radio" name="gender" id="dot-1">
+                        <div class="error"></div>
+                        <input type="radio" name="gender" id="dot-2">
+                        <div class="error"></div>
+                        <span class="gender-title">Gender</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-save">Save</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <img class="logo" src="Assets/logo-white.svg">
+        <div class="footer-info">
+            <div class="footer-section">
+                <h2>StudyKuy Office</h2>
+                <p>Rumah Talenta BCA Jl. Pakuan No. 5, Kelurahan Sumur Batu, Kecamatan Babakan Madang, Kabupaten Bogor,
+                    Jawa Barat 16810
+                </p>
+            </div>
+            <div class="footer-section">
+                <h2>Our Course</h2>
+                <div class="footer-link">
+                    <a href="">Web programming</a>
+                    <a href="">Data scientist</a>
+                    <a href="">Android developer</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>support@studykuy.com
+                </p>
+                <p>(+62) 8932481049
+                </p>
+            </div>
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <div class="social-media">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-programing">
+            <img src="Assets/images/languages/html.png">
+            <img src="Assets/images/languages/css.png">
+            <img src="Assets/images/languages/js.png">
+            <img src="Assets/images/languages/c-plus-plus.png">
+            <img src="Assets/images/languages/java.png">
+            <img src="Assets/images/languages/python.png">
+        </div>
+        <script defer src="Script/editProfile.js"></script>
+
+        <!-- <script src="Script/modal.js" type="text/javascript"></script> -->
+</body>
+
+</html>

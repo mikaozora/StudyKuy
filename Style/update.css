@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tittleHead{
+    position: absolute;
+    width: 1440px;
+    height: 280px;
+    left: 0px;
+    top: 0px;
+}
