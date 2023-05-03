@@ -90,6 +90,8 @@
 .search-result {
     transform: translate(0px, 40px);
     width: calc(100% - 60px);
+    max-height: 70vh;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     padding: 30px;
