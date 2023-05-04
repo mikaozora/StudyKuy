@@ -70,7 +70,7 @@ let courses = [
         price: "100.000",
         id: "124807",
         lastUpdate: "22 November 2022",
-        status: ["web-dev","webDev"],
+        status: ["web-dev","web-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -85,7 +85,7 @@ let courses = [
         price: "100.000",
         id: "158348",
         lastUpdate: "22 November 2022",
-        status: ["web-dev","webDev"],
+        status: ["web-dev","web-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -100,7 +100,7 @@ let courses = [
         price: "100.000",
         id: "905461",
         lastUpdate: "22 November 2022",
-        status: ["web-dev","webDev"],
+        status: ["web-dev","web-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -265,7 +265,7 @@ let courses = [
         price: "100.000",
         id: "56789098",
         lastUpdate: "22 November 2022",
-        status: ["webDev"],
+        status: ["web-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -280,7 +280,7 @@ let courses = [
         price: "100.000",
         id: "5643789    ",
         lastUpdate: "22 November 2022",
-        status: ["webDev"],
+        status: ["web-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -295,7 +295,7 @@ let courses = [
         price: "100.000",
         id: "4565789    ",
         lastUpdate: "22 November 2022",
-        status: ["webDev"],
+        status: ["web-dev"],
         rating: 4,
         discount: "70%"
     },
@@ -813,7 +813,7 @@ function loadWebDev() {
     carousel.classList.add("carousel")
 
     courses.forEach(course => {
-        if (course.status.includes("webDev")) {
+        if (course.status.includes("web-dev")) {
             let card = cardBuilder(course)
             carousel.appendChild(card)
         }
