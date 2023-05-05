@@ -115,7 +115,7 @@ let courses = [
         price: "100.000",
         id: "537724",
         lastUpdate: "22 November 2022",
-        status: ["programming", "ai", "popular","mob-dev"],
+        status: ["programming", "ai", "popular","mob-dev","web-dev"],
         rating: 4,
         discount: "70%"
     },
