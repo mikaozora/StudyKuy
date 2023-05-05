@@ -211,7 +211,7 @@ form input[type="radio"]{
 
 .overlay{
     position: absolute;
-    height: 210.5vh;
+    height: 218.5vh;
     width: 100%;
     background-color: rgba(0,0,0,0.3);
     opacity: 0;
